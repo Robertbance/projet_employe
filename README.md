@@ -9,7 +9,7 @@ Application web développée avec **Django** pour gérer les employés d'une ent
 
 ## Installation
 ```bash
-git clone https://github.com/ton_pseudo/gestion-employe.git
+git clone https://github.com/Robertbance/projet_employe.git
 cd gestion-employe
 pip install -r requirements.txt
 python manage.py runserver
