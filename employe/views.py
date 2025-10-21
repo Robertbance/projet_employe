@@ -4,7 +4,7 @@ from .forms import EmployeForm
 
 def liste_employes(request):
     employes= Employe.objects.all()
-    return render(request,'employe\list.html',{'employe':employes})
+    return render(request,'employe/list.html',{'employe':employes})
 
 def ajouter_employe(request):
     form= EmployeForm(request.POST or None)
