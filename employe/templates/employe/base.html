@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="aqua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Employe</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="flex justify-center mt-32">
+        
+        <!--Pour que les éléménts se trouvant à l'intérieur soient disposés en colonne avec une largeur 3xl et couleur d'arrière plan -->
+        <div class="flex flex-col w-3xl bg-base-200 rounded-x1 p-6">
+
+            <!--Pour qu'il prenne la largeur total et une hauteur qui soit adaptée -->
+            <div class="w-full h-fit">
+                {% block content %}
+
+                {% endblock %}
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
